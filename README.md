@@ -6,6 +6,8 @@ Since this was made on a whim within 3-4 hours one night, it only has a very bas
 
 There is also a *explorer* included that uses the credentials in your config file to get the different IDs for Nextcloud Deck and Trello respectively.
 
+The explorer program defaults to showing both Nextcloud Deck and Trello info, or it can take one argument which is either nextcloud, deck or trello.
+
 There are still several API calls for both of them created (as seen in [pkg/api](pkg/api)):
 - [x] Get boards
 - [x] Get stacks/lists
